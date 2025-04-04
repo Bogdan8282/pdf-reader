@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const prevPageBtn = document.getElementById("prev-page");
   const nextPageBtn = document.getElementById("next-page");
   const pageNumSpan = document.getElementById("page-num");
-  const goToPageInput = document.getElementById("go-to-page-input"); // Added input element
-  const goToPageBtn = document.getElementById("go-to-page-btn"); // Added button element
+  const goToPageInput = document.getElementById("go-to-page-input");
+  const goToPageBtn = document.getElementById("go-to-page-btn");
   const zoomOutBtn = document.getElementById("zoom-out");
   const zoomInBtn = document.getElementById("zoom-in");
   const fileInput = document.getElementById("file-input");
